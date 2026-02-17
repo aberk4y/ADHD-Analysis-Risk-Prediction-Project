@@ -1,10 +1,10 @@
-# ADHD Analysis Project
+# ADHD Analysis & Risk Prediction Project
 
 ## Project Overview
 
-This project focuses on analyzing ADHD-related data using data analysis and machine learning techniques. The objective is to identify patterns within the dataset, apply preprocessing techniques, and build classification models to evaluate predictive performance.
+This project focuses on analyzing ADHD-related data using data analysis and machine learning techniques. The objective is to identify patterns within the dataset, perform preprocessing, and build classification models to estimate ADHD risk levels.
 
-The project demonstrates practical experience in data preprocessing, model development, and evaluation using Python-based tools.
+In addition to standard classification, the project includes a risk prediction module designed to estimate the probability of ADHD-related risk based on input features.
 
 ---
 
@@ -26,12 +26,17 @@ The project demonstrates practical experience in data preprocessing, model devel
 - Data cleaning and handling missing values
 - Feature selection and transformation
 - Encoding categorical variables (if applicable)
-- Normalization / scaling (if applied)
+- Feature scaling and normalization
 
 ### Model Development
+- Train-test data split
 - Implementation of classification algorithms
-- Train-test split
 - Model training and validation
+
+### Risk Prediction Module
+- Probability-based prediction using trained model
+- Risk level estimation based on classification output
+- Evaluation of prediction confidence
 
 ### Model Evaluation
 - Accuracy score
@@ -71,16 +76,17 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 ## Key Learning Outcomes
 
 - Applied data preprocessing techniques to real-world dataset
-- Built and evaluated machine learning classification models
-- Gained hands-on experience in model performance analysis
-- Improved practical understanding of data-driven problem solving
+- Developed machine learning classification models
+- Implemented a probability-based ADHD risk prediction module
+- Evaluated model performance using standard metrics
+- Strengthened practical knowledge of predictive modeling
 
 ---
 
 ## Author
 
 Berkay Aras  
-İstanbul Topkapı University Software Engineering Student  
+Software Engineering Student  
 Istanbul, Türkiye  
 
 LinkedIn: www.linkedin.com/in/berkay-aras-914019282
