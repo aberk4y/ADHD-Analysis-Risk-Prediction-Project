@@ -88,6 +88,3 @@ pip install pandas numpy matplotlib seaborn scikit-learn
 Berkay Aras  
 Software Engineering Student  
 Istanbul, Türkiye  
-
-LinkedIn: www.linkedin.com/in/berkay-aras-914019282
-GitHub: https://github.com/aberk4y
